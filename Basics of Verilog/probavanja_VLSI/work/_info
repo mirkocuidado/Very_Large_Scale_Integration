@@ -1,0 +1,233 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vd_ff
+Z1 !s100 S62N]hOVLYN6l6l5cETZd3
+Z2 InHgSWdmZWb7DhG_N5K<Ii1
+Z3 V:kDNB2HiBDU4[ZhTK1EDk1
+Z4 dC:\Users\38164\OneDrive\Desktop\probavanja_VLSI
+Z5 w1604928789
+Z6 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_D.v
+Z7 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_D.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_D.v|
+Z10 o-work work -O0
+Z11 !s108 1604942211.649000
+Z12 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_D.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdut
+Z13 IB<N4n?B3TEPI0>T9DXjI]2
+Z14 V@DMHV?>9GFB11fAnHf3iP3
+R4
+Z15 w1605046791
+Z16 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna.v
+Z17 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna.v
+L0 1
+R8
+r1
+31
+R10
+Z18 !s100 zEU?63o6Jn97OR=J_c0M@3
+Z19 !s108 1605046795.788000
+Z20 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna.v|
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vjk_ff
+Z22 !s100 MUWO:fGI]6;jZ;bkcDF9[2
+Z23 IWL486nWc@R26``<[Ge<X^2
+Z24 Vgchmal7X2g;UM^X>nJJBH0
+R4
+Z25 w1604938638
+Z26 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_JK.v
+Z27 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_JK.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_JK.v|
+R10
+Z29 !s108 1604942211.789000
+Z30 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_JK.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlab1_kombinaciona_testbench
+Z31 IF?LL;2>dLYW4l_iI3dMMS2
+Z32 Va>nTM@>Qza`:hTN;2@he_1
+R4
+Z33 w1605045068
+Z34 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_kombinaciona_testbench.v
+Z35 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_kombinaciona_testbench.v
+L0 1
+R8
+r1
+31
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_kombinaciona_testbench.v|
+R10
+Z37 !s100 ;``ag[;KO:D6DOkGkn2N20
+Z38 !s108 1605045074.630000
+Z39 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_kombinaciona_testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlab1_sekvencijalna_testbench
+!i10b 1
+!s100 e0I7WoVdfH=7X3nAZjZR=0
+IMOcbibFo<nhPekB<C]a>o0
+Z40 VFT@XkXnmM@NEJDMo7N`XY0
+R4
+w1605047500
+Z41 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna_testbench.v
+Z42 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna_testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1605047506.914000
+!s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna_testbench.v|
+Z43 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/lab1_sekvencijalna_testbench.v|
+!s101 -O0
+R10
+vregister_8bit
+Z44 !s100 E^k;9Q4M:?0YH?Z?>0KYP2
+Z45 IUP5i3CFjI4nofi26`8mam2
+Z46 VHK^bZbFnokkKV<b[e<H3F3
+R4
+Z47 w1604939280
+Z48 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_uglier.v
+Z49 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_uglier.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_uglier.v|
+R10
+Z51 !s108 1604942211.930000
+Z52 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_uglier.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_8bit_prettier
+Z53 IlYla`z6RmeAjIAGY_SoW@2
+Z54 V_eO4L;?>^09>^5m]DLA:k3
+R4
+Z55 w1604942197
+Z56 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_prettier.v
+Z57 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_prettier.v
+L0 1
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_prettier.v|
+R10
+Z59 !s100 Ngi^6]LgYQb0RcHc_^g<P3
+Z60 !s108 1604942212.074000
+Z61 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/register_prettier.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vt_ff
+Z62 !s100 bWB2[8HYO3o9Y<XX<XhX62
+Z63 I90<MB_Ann:BG92f0P=]G43
+Z64 VeP]c]:2S^Y@G<89a:1]EP3
+R4
+Z65 w1604931690
+Z66 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_T.v
+Z67 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_T.v
+L0 1
+R8
+r1
+31
+Z68 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_T.v|
+R10
+Z69 !s108 1604942211.487000
+Z70 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/ff_T.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_d_ff
+Z71 !s100 j534U[1jmD317RcNH1nWN0
+Z72 I5B1M5H7^[=;4mRW]f2QU[0
+Z73 VQA>?QSle<M:jTG`NPGD8Q3
+R4
+Z74 w1604928819
+Z75 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_D.v
+Z76 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_D.v
+L0 1
+R8
+r1
+31
+Z77 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_D.v|
+R10
+Z78 !s108 1604942211.711000
+Z79 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_D.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_jk_ff
+Z80 !s100 XbbOzIJ^1SOUHEOY2MDWa3
+Z81 IX4CF8b=nhL;ZH0eK?Oci91
+Z82 V`XmZXLzYh9X`LDYOLB=;`3
+R4
+Z83 w1604932540
+Z84 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_JK.v
+Z85 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_JK.v
+L0 1
+R8
+r1
+31
+Z86 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_JK.v|
+R10
+Z87 !s108 1604942211.852000
+Z88 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_JK.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_register
+Z89 IQ959R`WbCfgF_O10h^Tkz3
+Z90 V6`dnBhan4Bo9J1297MOiG0
+R4
+Z91 w1604942623
+Z92 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_register.v
+Z93 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_register.v
+L0 1
+R8
+r1
+31
+Z94 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_register.v|
+R10
+Z95 !s100 NXjRYlKUj:cCILS5VoOk10
+Z96 !s108 1604942627.345000
+Z97 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop_t_ff
+Z98 !s100 =L^zR0^T1X8D0;EKFmE4T1
+Z99 I3c`kE^L@aJGo9WKa[aEO@2
+Z100 Vd96DFZL@AY9F`RUJczK1D3
+R4
+Z101 w1604928625
+Z102 8C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_T.v
+Z103 FC:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_T.v
+L0 1
+R8
+r1
+31
+Z104 !s90 -reportprogress|300|-work|work|C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_T.v|
+R10
+Z105 !s108 1604942211.571000
+Z106 !s107 C:/Users/38164/OneDrive/Desktop/probavanja_VLSI/top_ff_T.v|
+!i10b 1
+!s85 0
+!s101 -O0

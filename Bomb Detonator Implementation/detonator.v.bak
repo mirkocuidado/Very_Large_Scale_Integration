@@ -1,0 +1,86 @@
+module detonator #(
+	parameter second = 50_000_000
+) (
+	input clk,
+	input rst_n,
+	input start,
+	output [6:0] out
+);
+
+reg [6:0] display_reg, display_next;
+reg [3:0] num_reg, num_next;
+reg show_slash_reg, show_slash_next;
+assign out = display_reg;
+
+integer timer_reg, timer_next;
+
+always @(posedge clk, negedge rst_n)
+	if (!rst_n) begin
+		display_reg <= 7'h00;
+		num_reg <= 4'b1001;
+		timer_reg <= 0;
+		show_slash_reg <= 1'b1;
+	end
+	else begin
+		display_reg <= display_next;
+		num_reg <= num_next;
+		timer_reg <= timer_next;
+		show_slash_reg <= show_slash_next;
+	end
+
+always @(*) begin
+
+	display_next = display_reg;
+	num_next = num_reg;
+	timer_next = timer_reg;
+	show_slash_next = show_slash_reg;
+
+	if (start == 1'b1) begin
+		timer_next = timer_reg + 1;
+		if (timer_reg == second) begin
+			if (num_reg > 0)
+				num_next = num_reg - 1;
+			timer_next = 0;
+			display_next = hex7(num_reg);
+		end
+		else if (timer_reg == second / 2 && num_reg == 0) begin
+			timer_next = 0;
+			if (show_slash_reg == 1'b1) begin
+				display_next = hex7(4'b1010);
+				show_slash_next = 1'b0;
+			end
+			else begin
+				display_next = hex7(4'b1011);
+				show_slash_next = 1'b1;
+			end
+		end
+	end
+
+end
+
+function [6:0] hex7 (
+	input [3:0] in
+);
+begin
+	case (in)
+	4'b0000: hex7 = ~7'h3F;
+	4'b0001: hex7 = ~7'h06;
+	4'b0010: hex7 = ~7'h5B;
+	4'b0011: hex7 = ~7'h4F;
+	4'b0100: hex7 = ~7'h66;
+	4'b0101: hex7 = ~7'h6D;
+	4'b0110: hex7 = ~7'h7D;
+	4'b0111: hex7 = ~7'h07;
+	4'b1000: hex7 = ~7'h7F;
+	4'b1001: hex7 = ~7'h6F;
+	4'b1010: hex7 = ~7'h60;
+	4'b1011: hex7 = ~7'h00;
+	4'b1100: hex7 = ~7'h39;
+	4'b1101: hex7 = ~7'h5E;
+	4'b1110: hex7 = ~7'h79;
+	4'b1111: hex7 = ~7'h71;
+	endcase
+end
+endfunction
+
+endmodule

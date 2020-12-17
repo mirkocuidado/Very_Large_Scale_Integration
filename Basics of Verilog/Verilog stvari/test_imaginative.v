@@ -1,0 +1,36 @@
+module test_imaginative;
+
+reg clk, rst;
+reg [1:0] ctrl1; reg [1:0] ctrl2;
+reg [3:0] in0; reg [3:0] in1; reg [3:0] in2; reg [3:0] in3; 
+wire [3:0] out;
+
+imaginative_guy_are_you i1(clk, rst, in0, in1, in2, in3, ctrl1, ctrl2, out);
+
+initial begin
+	rst = 1'b0;
+	clk = 1'b0;
+	#2 rst = 1'b1;
+
+	repeat(100) begin
+		in0 = $urandom_range(15,0);
+		in1 = $urandom_range(15,0);
+		in2 = $urandom_range(15,0);
+		in3 = $urandom_range(15,0);
+		ctrl1 = $urandom_range(2,0);
+		ctrl2 = 2'b11;
+		#5;
+		ctrl2 = 2'b10;
+		$5;
+	end
+
+	#5 $finish;
+end
+
+initial
+	$monitor("TIME=%0d , OUT=%d", $time, out);
+
+always
+	#5 clk = ~clk;
+
+endmodule

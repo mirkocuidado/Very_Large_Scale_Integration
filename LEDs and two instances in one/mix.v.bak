@@ -1,0 +1,9 @@
+module mix_devices(input clk, input in, input button1, input button2, output [3:0] out1, output [3:0] out2);
+
+
+
+
+
+
+
+endmodule

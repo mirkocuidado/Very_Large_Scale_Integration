@@ -1,0 +1,52 @@
+module oven(
+	input clk, 
+	input rst, 
+	input start,       			  /********** BUTTON 0 -> start **********/
+	input hotplate1,   			  /********** SWITCH 3 -> HEX3 on **********/
+	input hotplate2,       		  /********** SWITCH 2 -> HEX2 on **********/
+	input hotter,      			  /********** BUTTON 2 -> raise heat **********/
+	input colder,      			  /********** BUTTON 1 -> lower heat **********/
+	output [6:0] out_hotplate1,  /********** HEX 3 output **********/
+	output [6:0] out_hotplate2   /********** HEX 2 output **********/
+);
+
+always @(posedge clk, negedge rst) begin
+	if(!rst) begin
+	
+	end
+end
+
+
+
+
+
+
+
+
+
+function [6:0] hex7 (
+	input [3:0] in
+);
+begin
+	case (in)
+	4'b0000: hex7 = ~7'h3F;
+	4'b0001: hex7 = ~7'h06;
+	4'b0010: hex7 = ~7'h5B;
+	4'b0011: hex7 = ~7'h4F;
+	4'b0100: hex7 = ~7'h66;
+	4'b0101: hex7 = ~7'h6D;
+	4'b0110: hex7 = ~7'h7D;
+	4'b0111: hex7 = ~7'h07;
+	4'b1000: hex7 = ~7'h7F;
+	4'b1001: hex7 = ~7'h6F;
+	4'b1010: hex7 = ~7'b1000000;
+	4'b1011: hex7 = ~7'b0000000;
+	4'b1100: hex7 = ~7'h39;
+	4'b1101: hex7 = ~7'h5E;
+	4'b1110: hex7 = ~7'h79;
+	4'b1111: hex7 = ~7'h71;
+	endcase
+end
+endfunction
+
+endmodule

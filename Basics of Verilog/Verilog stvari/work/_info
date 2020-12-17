@@ -1,0 +1,185 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.4c/examples
+vadder_for_two_bits_with_carry
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3Mf9M?EdkjHIcfb>:GV1`2
+Ii^K?Tb>kZMI49F9XIBjKE3
+Z1 dC:/Users/38164/OneDrive/Desktop/New folder
+w1605204844
+8C:/Users/38164/OneDrive/Desktop/New folder/adder_for_adder_with_carry_project.v
+FC:/Users/38164/OneDrive/Desktop/New folder/adder_for_adder_with_carry_project.v
+L0 1
+Z2 OL;L;10.4c;61
+Z3 !s108 1605204858.000000
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/adder_for_adder_with_carry_project.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/adder_for_adder_with_carry_project.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_with_carry_for_four_bits
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vl;b];NeQX3Wb^5:^8WMF0
+IN8@6L@k>B8XW43LNLSMK53
+R1
+w1605204349
+8C:/Users/38164/OneDrive/Desktop/New folder/adder_with_carry.v
+FC:/Users/38164/OneDrive/Desktop/New folder/adder_with_carry.v
+L0 1
+R2
+Z5 !s108 1605204859.000000
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/adder_with_carry.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/adder_with_carry.v|
+!i113 0
+R4
+vimaginative_guy_are_you
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 5h47`hhFidb;V=0KklZLe2
+I]NF^f_Y^4RzZ[_k6C8C^Y1
+R1
+w1605209592
+8C:/Users/38164/OneDrive/Desktop/New folder/imaginative_guy_are_you.v
+FC:/Users/38164/OneDrive/Desktop/New folder/imaginative_guy_are_you.v
+L0 1
+R2
+!s108 1605209597.000000
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/imaginative_guy_are_you.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/imaginative_guy_are_you.v|
+!i113 0
+R4
+vmultiplex41
+Z6 !s110 1605204858
+!i10b 1
+!s100 LHjglCWQ0h66;oC9gVVhg3
+IHQV]3iC@UFOMZ@9Z4N]Kl2
+R0
+R1
+w1605197360
+8C:/Users/38164/OneDrive/Desktop/New folder/multiplex41.v
+FC:/Users/38164/OneDrive/Desktop/New folder/multiplex41.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/multiplex41.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/multiplex41.v|
+!i113 0
+R4
+vregister
+R6
+!i10b 1
+!s100 _>Te^41km3K:KlZ86aeSB1
+IUTn[OoW02XfHPEPdX]z8f2
+R0
+R1
+w1605185444
+8C:/Users/38164/OneDrive/Desktop/New folder/counter5b.v
+FC:/Users/38164/OneDrive/Desktop/New folder/counter5b.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/counter5b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/counter5b.v|
+!i113 0
+R4
+vtest_adder_with_carry
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?DeZ7Ni=zmXK?kgDoEjBz2
+I23a]dXNXi@nQ^2XVczA;Y1
+R1
+w1605204515
+8C:/Users/38164/OneDrive/Desktop/New folder/test_adder_with_carry.v
+FC:/Users/38164/OneDrive/Desktop/New folder/test_adder_with_carry.v
+L0 1
+R2
+R5
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/test_adder_with_carry.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/test_adder_with_carry.v|
+!i113 0
+R4
+vtest_coutner
+R6
+!i10b 1
+!s100 Q7e90^AG82jOiN=T:>z=j0
+I[;H9]GUX5I2=T8V4UT;c<3
+R0
+R1
+w1605185616
+8C:/Users/38164/OneDrive/Desktop/New folder/test_counter.v
+FC:/Users/38164/OneDrive/Desktop/New folder/test_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/test_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/test_counter.v|
+!i113 0
+R4
+vtest_imaginative
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 E^A=WQ7L9dSPiGc7?gbUD1
+IcUE3LnS4<@`T=Ld2;^CF;1
+R1
+w1605210840
+8C:/Users/38164/OneDrive/Desktop/New folder/test_imaginative.v
+FC:/Users/38164/OneDrive/Desktop/New folder/test_imaginative.v
+L0 1
+R2
+!s108 1605210850.000000
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/test_imaginative.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/test_imaginative.v|
+!i113 0
+R4
+vtest_multiplex41
+R6
+!i10b 1
+!s100 UHKz>[jzSc19Ggd7XnT393
+I:nlWSU5@M7F[h85mKW_E]0
+R0
+R1
+w1605198696
+8C:/Users/38164/OneDrive/Desktop/New folder/test_multiplex41.v
+FC:/Users/38164/OneDrive/Desktop/New folder/test_multiplex41.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/38164/OneDrive/Desktop/New folder/test_multiplex41.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/38164/OneDrive/Desktop/New folder/test_multiplex41.v|
+!i113 0
+R4

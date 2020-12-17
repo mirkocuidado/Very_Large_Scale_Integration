@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE0_TOP">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_gvo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_t0p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_jno.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_jno.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_jvo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_jno.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|detonator:detonator_inst|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_jno.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

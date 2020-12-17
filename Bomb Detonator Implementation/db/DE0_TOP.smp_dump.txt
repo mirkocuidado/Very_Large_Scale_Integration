@@ -1,0 +1,7 @@
+
+State Machine - |DE0_TOP|detonator:detonator_inst|state_reg
+Name state_reg.frozen state_reg.counting state_reg.reached state_reg.init 
+state_reg.init 0 0 0 0 
+state_reg.reached 0 0 1 1 
+state_reg.counting 0 1 0 1 
+state_reg.frozen 1 0 0 1 

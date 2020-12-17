@@ -1,0 +1,40 @@
+
+State Machine - |DE0_TOP|mix_devices:m|device:device_instanca2|old_state_reg
+Name old_state_reg.state_two_medium old_state_reg.state_two_backward old_state_reg.state_two_forward old_state_reg.wait_for_first_click old_state_reg.wait_for_second_click old_state_reg.diodes_playing old_state_reg.state_two_init 
+old_state_reg.state_two_init 0 0 0 0 0 0 0 
+old_state_reg.diodes_playing 0 0 0 0 0 1 1 
+old_state_reg.wait_for_second_click 0 0 0 0 1 0 1 
+old_state_reg.wait_for_first_click 0 0 0 1 0 0 1 
+old_state_reg.state_two_forward 0 0 1 0 0 0 1 
+old_state_reg.state_two_backward 0 1 0 0 0 0 1 
+old_state_reg.state_two_medium 1 0 0 0 0 0 1 
+
+State Machine - |DE0_TOP|mix_devices:m|device:device_instanca2|state_reg
+Name state_reg.state_two_medium state_reg.state_two_backward state_reg.state_two_forward state_reg.state_two_init state_reg.wait_for_second_click state_reg.diodes_playing state_reg.wait_for_first_click 
+state_reg.wait_for_first_click 0 0 0 0 0 0 0 
+state_reg.diodes_playing 0 0 0 0 0 1 1 
+state_reg.wait_for_second_click 0 0 0 0 1 0 1 
+state_reg.state_two_init 0 0 0 1 0 0 1 
+state_reg.state_two_forward 0 0 1 0 0 0 1 
+state_reg.state_two_backward 0 1 0 0 0 0 1 
+state_reg.state_two_medium 1 0 0 0 0 0 1 
+
+State Machine - |DE0_TOP|mix_devices:m|device:device_instanca1|old_state_reg
+Name old_state_reg.state_two_medium old_state_reg.state_two_backward old_state_reg.state_two_forward old_state_reg.wait_for_first_click old_state_reg.wait_for_second_click old_state_reg.diodes_playing old_state_reg.state_two_init 
+old_state_reg.state_two_init 0 0 0 0 0 0 0 
+old_state_reg.diodes_playing 0 0 0 0 0 1 1 
+old_state_reg.wait_for_second_click 0 0 0 0 1 0 1 
+old_state_reg.wait_for_first_click 0 0 0 1 0 0 1 
+old_state_reg.state_two_forward 0 0 1 0 0 0 1 
+old_state_reg.state_two_backward 0 1 0 0 0 0 1 
+old_state_reg.state_two_medium 1 0 0 0 0 0 1 
+
+State Machine - |DE0_TOP|mix_devices:m|device:device_instanca1|state_reg
+Name state_reg.state_two_medium state_reg.state_two_backward state_reg.state_two_forward state_reg.state_two_init state_reg.wait_for_second_click state_reg.diodes_playing state_reg.wait_for_first_click 
+state_reg.wait_for_first_click 0 0 0 0 0 0 0 
+state_reg.diodes_playing 0 0 0 0 0 1 1 
+state_reg.wait_for_second_click 0 0 0 0 1 0 1 
+state_reg.state_two_init 0 0 0 1 0 0 1 
+state_reg.state_two_forward 0 0 1 0 0 0 1 
+state_reg.state_two_backward 0 1 0 0 0 0 1 
+state_reg.state_two_medium 1 0 0 0 0 0 1 
