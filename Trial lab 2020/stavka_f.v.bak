@@ -1,0 +1,16 @@
+module stavka_f #( parameter SECOND = 50_000_000)
+(
+input clk,
+input rst_n,
+input [3:0] data_in,
+input ld,
+input inc,
+output [3:0] data_out
+);
+
+
+
+
+
+
+endmodule

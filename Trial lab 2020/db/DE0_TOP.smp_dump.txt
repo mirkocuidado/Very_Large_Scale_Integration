@@ -1,0 +1,6 @@
+
+State Machine - |DE0_TOP|stavka_f:inst_f|stavka_e:instanca|state_reg
+Name state_reg.state_c state_reg.state_e state_reg.state_d 
+state_reg.state_c 0 0 0 
+state_reg.state_d 1 0 1 
+state_reg.state_e 1 1 0 

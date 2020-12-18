@@ -1,0 +1,16 @@
+module stavka_c(
+input clk,
+input rst_n,
+input [3:0] in,
+input inc,
+input ld,
+input [3:0] data
+);
+
+
+
+
+
+
+
+endmodule

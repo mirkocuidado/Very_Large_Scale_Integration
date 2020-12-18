@@ -1,0 +1,13 @@
+module stavka_a(
+	input clk,
+	input rst_n,
+	input in,
+	output out
+);
+
+
+
+
+
+
+endmodule
