@@ -1,0 +1,6 @@
+
+State Machine - |DE0_TOP|safe:safe_instanca|state_reg
+Name state_reg.show state_reg.setup state_reg.locked 
+state_reg.setup 0 0 0 
+state_reg.locked 0 1 1 
+state_reg.show 1 1 0 

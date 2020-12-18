@@ -1,0 +1,36 @@
+module debouncer(input clk, input rst, input in, output out);
+
+wire in_changed; // notifies us if the input changed
+wire in_stable;  // notifies us if the input stays the same for a certain number of bits 
+
+reg out_next, out_reg;
+reg [1:0] ff_next, ff_reg;
+reg [12:0] cnt_reg, cnt_next;
+
+assign out = out_next;
+assign in_changed = ff_reg[0] ^ ff_reg[1];
+assign in_stable = (cnt_reg == 12'hFFF) ? 1'b1 : 1'b0;
+
+always @(posedge clk, negedge rst) begin
+	if(!rst) begin
+		ff_reg <= 2'b00;
+		out_reg <= 1'b0;
+		cnt_reg <= 12'h000;
+	end
+	else if(clk) begin
+		ff_reg <= ff_next;
+		out_reg <= out_next;
+		cnt_reg <= cnt_next;
+	end
+end
+
+always @(*) begin
+	ff_next[0] = in;
+	ff_next[1] = ff_reg[0];
+	
+	cnt_next = (in_changed == 1'b1) ? 1'b0 : (cnt_reg + 1'b1);
+	out_next = (in_stable == 1'b1) ? ff_reg[0] : out_reg;
+end
+
+
+endmodule

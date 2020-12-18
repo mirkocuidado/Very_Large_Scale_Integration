@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE0_TOP">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|safe:safe_instanca|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_hno.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

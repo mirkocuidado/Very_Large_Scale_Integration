@@ -1,0 +1,45 @@
+module safe #(parameter SECONDS = 50_000_000)(input clk, input rst, input action, input[3:0] data, output[1:0] outLed, output[6:0] out);
+
+localparam setup = 2'b00;
+localparam locked = 2'b01;
+localparam show = 2'b10;
+
+reg[1:0] state_reg, state_next;
+
+assign outLed = state_reg;
+
+always @(posedge clk, negedge rst) begin
+	if(!rst) begin
+		state_reg <= setup;
+	end
+	else begin
+		state_reg <= state_next;
+	end
+end
+
+always @(*) begin
+	state_next = state_reg;
+	
+	case(state_reg)
+	2'b00: begin
+		state_next = locked;
+	end
+	
+	2'b01: begin
+		state_next = show;
+	end
+	
+	2'b10: begin
+		state_next = setup;
+	end
+	
+	endcase
+end
+
+
+
+
+
+
+
+endmodule

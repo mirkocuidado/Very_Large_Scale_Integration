@@ -1,0 +1,15 @@
+module digits(input[9:0] in, output[27:0] out);
+
+genvar i;
+generate
+	for(i=0; i<4; i=i+1) begin : ime_bloka
+		
+		wire [3:0] digitsName = (in/10**i)%10;
+		
+		hex hexName(digitsName, out[7*(i+1), 7*i]);
+	
+	end
+endgenerate
+
+
+endmodule
